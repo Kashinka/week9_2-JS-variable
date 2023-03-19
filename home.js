@@ -106,6 +106,4 @@ const fahrenheit = 451;
 
 const celsius = (fahrenheit - 32) / 1.8;
 
-console.log( 'По Фаренгейту: ' + fahrenheit );
-
-console.log( 'По Цельсию: ' + celsius );
+console.log( `_${fahrenheit}_ градуса по Фаренгейту — это _${celsius}_ градуса по Цельсию.` );
