@@ -17,21 +17,15 @@ console.log ( city + " " + year );
 // 3. Прокрастинируя дома, Русалка `128` минут переписывалась в мессенджере, `254` минуты лайкала фотокарточки, `137` минут читала статьи ВКонтакте и `201` минуту смотрела стендапы на YouTube.
 // Выведите в консоль, сколько часов прокрастинировала Русалка.
 
-// const messenger = 128;
+const messenger = 128;
 
-// const likes = 254;
+const likes = 254;
 
-// const reading = 137;
+const reading = 137;
 
-// const standup = 201;
+const standup = 201;
 
-// function hours() {
-
-//     return (messenger + likes + reading + standup) / 60;
-
-// }
-
-// console.log ( `Русалка прокрастинировала` hours + ` часов` );
+console.log ( `Русалка прокрастинировала ` + (messenger + likes + reading + standup) / 60 + ` часов` );
 
 // 4. Возведите число 2 в 5 степень.
 
