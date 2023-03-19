@@ -44,6 +44,6 @@ console.log( `Нужно бежать со всех ног, чтобы толь�
 
 const greetings = "Привет";
 
-const name = "Кот";
+const nameCat = "Кот";
 
-alert( `greetings + ", " + ${name}` );
+alert( `${greetings}, ${nameCat}` );
